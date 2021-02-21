@@ -20,6 +20,8 @@ class ResourceComparerTest{
         resourceComparer = ResourceComparer()
     }
 
+    // in the same way we can also use @After before the method that we want to execute later
+
     @Test
     fun stringResourceSameAsGivenString_returnsTrue(){
         val context = ApplicationProvider.getApplicationContext<Context>()
